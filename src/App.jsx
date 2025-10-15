@@ -17,7 +17,7 @@ function App() {
       <Header />
  <div style={{ flex: 1 }}>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route index element={<Home />} />
           <Route path="/book/:id" element={<BookDetailPage />} />
         </Routes>
       </div>
